@@ -1,0 +1,12 @@
+{
+  "react-native": {
+    "google_analytics_automatic_screen_reporting_enabled": true,
+    "messaging_ios_auto_register_for_remote_messages": true,
+    "analytics_auto_collection_enabled": true,
+    "messaging_auto_init_enabled": true,
+    "crashlytics_debug_enabled": true,
+    "crashlytics_auto_collection_enabled": true,
+    "perf_auto_collection_enabled": true,
+    "in_app_messaging_auto_collection_enabled": false
+  }
+}

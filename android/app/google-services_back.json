@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534324396110",
+    "project_id": "chase-securities",
+    "storage_bucket": "chase-securities.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534324396110:android:9c88bcb60d99daf372031f",
+        "android_client_info": {
+          "package_name": "com.fetchsky.stocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534324396110-5t4f0lhkg9ue9nn9v1p18o6pfgij6853.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVwoPAQuK-vtqiB5xqTOXfGiNsJoCoRHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534324396110-5t4f0lhkg9ue9nn9v1p18o6pfgij6853.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

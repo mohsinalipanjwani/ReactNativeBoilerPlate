@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    ....
+  </style>
+
+  <!-- add this -->
+  <style name="LightTheme" parent="AppTheme">
+    <item name="launchBackgroundImage">@drawable/ic_splash_light</item>
+    <item name="launchLogoImage">@drawable/ic_launcher_light</item>
+  </style>
+
+  <!-- and add this -->
+  <style name="DarkTheme" parent="AppTheme">
+    <item name="launchBackgroundImage">@drawable/ic_splash_dark</item>
+    <item name="launchLogoImage">@drawable/ic_launcher_dark</item>
+  </style>
+</resources>
