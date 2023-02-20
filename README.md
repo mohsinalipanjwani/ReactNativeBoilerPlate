@@ -1,5 +1,20 @@
 # ReactNativeBoilerPlate
-This is React Native boilerplate
+
+## Features
+
+- [Typescript](https://www.typescriptlang.org/) support.
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React Navigation](https://reactnavigation.org/) with [Authentication flow](https://reactnavigation.org/docs/auth-flow) baked in & theming support.
+- [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
+- [React Query](https://react-query-v3.tanstack.com/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)- with theming support 
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+- [Cspell](https://www.npmjs.com/package/cspell)
+- [Commintlint](https://commitlint.js.org/#/)
+- [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
+- Multi Flovour Support
+- Dark Mode Support
+- Firebase Support 
 
 ## Prerequisites
 
