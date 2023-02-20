@@ -32,8 +32,7 @@ import IntlProvider from './IntlProvider';
 import { translationMessages } from './i18n';
 import useColorPalette, { useScheme } from 'hooks/useColorPalette';
 
-// LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
-LogBox.ignoreAllLogs();
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
 
 /** Suppressing the display of in-app messaging to ensure it is only enabled
  * when the user has selected a city. This is set to false in the AppSideEffects

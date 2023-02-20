@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -6,22 +6,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import routes from './routes';
 import * as routeName from './routeNames';
-import { useUser } from 'providers/User';
 
 const Stack = createNativeStackNavigator();
-let initialRouteName: any;
+
 function UserRouter() {
-  const user = useUser();
-
-  useEffect(() => {
-    initialRouteName = user?.data?.name
-      ? routeName.WELCOME
-      : routeName.PROFILE_SETUP;
-  }, [user?.data]);
-
   return (
     <Stack.Navigator
-      initialRouteName={initialRouteName}
+      initialRouteName={routeName.WELCOME}
       screenOptions={{
         headerShown: false,
         presentation: 'card',

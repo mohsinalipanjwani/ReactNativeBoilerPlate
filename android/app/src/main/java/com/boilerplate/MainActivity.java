@@ -1,4 +1,4 @@
-package com.fetchsky.stocks;
+package com.boilerplate;
 
 import android.os.Bundle;
 
@@ -35,7 +35,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ConsumerApp";
+    return "ReactNativeBoilerPlate";
   }
 
   /**

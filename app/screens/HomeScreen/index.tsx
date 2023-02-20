@@ -10,9 +10,9 @@ import useColorPalette, { useScheme } from 'hooks/useColorPalette';
 import Screen from 'theme/Screen';
 import View from 'theme/View';
 import Icon from 'theme/Icon';
-import SVG from 'theme/SVG';
 import style from './style';
 import Text from 'theme/Text';
+import Image from 'theme/Image';
 
 function HomeScreen() {
   const palette = useColorPalette();
@@ -30,9 +30,10 @@ function HomeScreen() {
       headerTitleStyle={style.title}
       blockBackPress
       leftContent={
-        <View style={style.imageWrapper}>
-          <SVG title={scheme === 'dark' ? 'logoDark' : 'logoLight'} />
-        </View>
+        <Image
+          style={style.profilePicture}
+          title={scheme === 'dark' ? 'logoDark' : 'logoLight'}
+        />
       }
       rightContent={
         <Icon onPress={() => { }} style={themeStyles} size={20} name="logout" />

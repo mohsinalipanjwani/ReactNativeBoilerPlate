@@ -7,9 +7,9 @@ const style = StyleSheet.create({
     textTransform: 'capitalize',
   },
 
-  imageWrapper: {
+  profilePicture: {
     width: 112,
-    height: 30,
+    height: 50,
   },
 });
 

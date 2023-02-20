@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:534324396110:android:9c88bcb60d99daf372031f",
         "android_client_info": {
-          "package_name": "com.fetchsky.stocks"
+          "package_name": "com.boilerplate"
         }
       },
       "oauth_client": [

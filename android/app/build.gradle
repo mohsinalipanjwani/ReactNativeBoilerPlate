@@ -146,7 +146,7 @@ android {
     flavorDimensions "default"
 
     defaultConfig {
-        applicationId "com.fetchsky.stocks"
+        applicationId "com.boilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 33
@@ -169,7 +169,7 @@ android {
                     cppFlags "-std=c++17"
                     // Make sure this target name is the same you specify inside the
                     // src/main/jni/Android.mk file for the `LOCAL_MODULE` variable.
-                    targets "consumerapp_appmodules"
+                    targets "reactnativeboilerplate_appmodules"
                 }
             }
             if (!enableSeparateBuildPerCPUArchitecture) {
@@ -258,18 +258,18 @@ android {
     
     productFlavors {
         dev {
-            applicationId 'com.fetchsky.stocks.dev'
-            resValue "string", "build_config_package", "com.fetchsky.stocks"
+            applicationId 'com.boilerplate.dev'
+            resValue "string", "build_config_package", "com.boilerplate"
             signingConfig signingConfigs.dev
         }
         staging {
-            applicationId 'com.fetchsky.stocks.staging'
-            resValue "string", "build_config_package", "com.fetchsky.stocks"
+            applicationId 'com.boilerplate.staging'
+            resValue "string", "build_config_package", "com.boilerplate"
             signingConfig signingConfigs.staging
         }
         prod {
-            applicationId 'com.fetchsky.stocks'
-            resValue "string", "build_config_package", "com.fetchsky.stocks"
+            applicationId 'com.boilerplate'
+            resValue "string", "build_config_package", "com.boilerplate"
             signingConfig signingConfigs.prod
         }
     }

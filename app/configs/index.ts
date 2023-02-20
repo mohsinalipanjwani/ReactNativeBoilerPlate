@@ -20,3 +20,4 @@ export const BACK_INTERVAL = 2000;
 export const MOCK_PHONE_VERIFICATION = false;
 
 export const LOG_ANALYTICS = true;
+export const OTP_RESEND_INTERVAL = 30;

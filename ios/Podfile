@@ -6,7 +6,7 @@ install! 'cocoapods', :deterministic_uuids => false
 
 $RNFirebaseAnalyticsWithoutAdIdSupport=true
 
-target 'ConsumerApp' do
+target 'ReactNativeBoilerPlate' do
   config = use_native_modules!
   use_frameworks! :linkage => :static
   
@@ -23,7 +23,7 @@ target 'ConsumerApp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'ConsumerAppTests' do
+  target 'ReactNativeBoilerPlateTests' do
     inherit! :complete
     # Pods for testing
   end

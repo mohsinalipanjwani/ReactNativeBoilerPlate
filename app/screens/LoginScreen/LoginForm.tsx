@@ -8,7 +8,6 @@ import FlatButton from 'theme/Button/FlatButton';
 import { useFormattedMessage } from 'theme/FormattedMessage';
 
 import messages from './messages';
-import { cleanFirebaseError } from 'utils';
 
 interface LoginFormProps {
   onSubmit: (values: { phoneNumber: string }) => void;
@@ -39,7 +38,7 @@ function LoginForm(props: LoginFormProps) {
         onChangeText={(text) =>
           formik.setFieldValue('phoneNumber', text.replace(/-/g, ''))
         }
-        error={formik.errors.phoneNumber || cleanFirebaseError(props.error)}
+        error={formik.errors.phoneNumber}
         placeholder={inputLabel}
       />
       <FlatButton

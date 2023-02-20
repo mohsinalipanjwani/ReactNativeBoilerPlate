@@ -3,7 +3,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { TabStackParamList } from 'router/TabRouter/types';
 import { UserStackParamList } from 'router/UserRouter/types';
 
-type GlobalMarketScreenRouteProp = RouteProp<TabStackParamList, 'GlobalMarket'>;
+type GlobalMarketScreenRouteProp = RouteProp<TabStackParamList, 'Home'>;
 
 type GlobalMarketScreenNavigationProp = NativeStackNavigationProp<
   UserStackParamList,
